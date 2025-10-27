@@ -37,7 +37,7 @@ The block displays news articles in a responsive grid with:
 1. Clone or download this repository into your WordPress plugins directory:
    ```bash
    cd wp-content/plugins/
-   git clone <your-repo-url> times-news-block
+   git clone git@github.com:diegoseghezzo/wp-blocks-playground.git times-news-block
    cd times-news-block
    ```
 
