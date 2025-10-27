@@ -1,0 +1,53 @@
+/**
+ * Times News Block - Admin Settings Styles
+ * VIP COMPLIANCE: External CSS file for Content Security Policy
+ */
+
+.times-news-feed-row {
+	background: #f9f9f9;
+	padding: 15px;
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.times-news-feed-row input[type="text"] {
+	margin: 5px 0;
+}
+
+.times-news-feed-controls {
+	display: grid;
+	grid-template-columns: 150px 150px 1fr 100px 80px;
+	gap: 10px;
+	align-items: center;
+}
+
+.times-news-feed-controls label {
+	font-weight: 600;
+	display: block;
+	margin-bottom: 3px;
+	font-size: 12px;
+}
+
+.times-news-remove-feed {
+	color: #a00;
+	text-decoration: none;
+	padding: 5px 10px;
+	border: 1px solid #a00;
+	border-radius: 3px;
+	text-align: center;
+	display: inline-block;
+}
+
+.times-news-remove-feed:hover {
+	background: #a00;
+	color: #fff;
+}
+
+.times-news-add-feed {
+	margin-top: 10px;
+}
+
+#times-news-feeds-container {
+	margin-bottom: 15px;
+}

@@ -1,0 +1,50 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/times-news-block",
+	"version": "1.0.0",
+	"title": "Times News Block",
+	"category": "widgets",
+	"icon": "rss",
+	"description": "Display The Times news with AI-powered filtering and customizable criteria",
+	"example": {},
+	"attributes": {
+		"newsCount": {
+			"type": "number",
+			"default": 5
+		},
+		"category": {
+			"type": "string",
+			"default": "all"
+		},
+		"useAI": {
+			"type": "boolean",
+			"default": false
+		},
+		"userCriteria": {
+			"type": "string",
+			"default": ""
+		},
+		"layout": {
+			"type": "string",
+			"default": "grid"
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": true,
+		"color": {
+			"background": true,
+			"text": true
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	},
+	"textdomain": "times-news-block",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"viewScript": "file:./build/view.js"
+}
